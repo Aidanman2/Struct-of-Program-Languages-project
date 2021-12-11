@@ -3,7 +3,7 @@
 
 using namespace std;
 
-void swap(int& x, int& y)
+void swap(int& x, int& y) // first i have to do a pass by reference example in this function to do a swap
 
 {
 
@@ -15,7 +15,7 @@ y = z;
 
 }
 
-void swapbyValue(int x, int y)
+void swapbyValue(int x, int y) // here is where i will create a function to propose a pass by value swap
 
 {
 
@@ -35,19 +35,18 @@ int main()
 
 {
 
-int a = 15, b = 25;
+int allen = 15, barry = 25;
 
 cout << "ahhhhhhhhhh";
 
-cout << "a = " << a << " b = " << b << "\n";
+cout << "barry = " << barry << " allen = " << allen << "\n"; // this code will swap b and a
 
-//swap(a, b);
 
 swapbyValue(a,b);
 
 cout << "ahhhhhhhhhhhh placeholder";
 
-cout << "a = " << a << " b = " << b << "\n";
+cout << "barry = " << barry << " allen = " << allen << "\n";
 
   }
 
